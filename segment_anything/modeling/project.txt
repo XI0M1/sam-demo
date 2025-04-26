@@ -1,0 +1,6 @@
+模块导出：通过 from .module import Class 的语法暴露了五个核心类：
+Sam: 主模型类，整合所有组件
+ImageEncoderViT: 基于 ViT 的图像编码器
+MaskDecoder: 生成分割掩码的解码器
+PromptEncoder: 处理用户提示(点/框)的编码器
+TwoWayTransformer: 自定义的双向Transformer结构

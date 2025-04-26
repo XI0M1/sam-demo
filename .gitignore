@@ -1,0 +1,28 @@
+# 忽略 .idea 目录（IDE 配置）
+.idea/
+
+# 忽略 checkpoints 目录中的所有内容（权重文件）
+checkpoints/*
+
+# 但保留 checkpoints 文件夹结构（如果需要）
+!checkpoints/.gitignore
+
+# 忽略 segment-anything-git 目录（它是克隆的 Git 仓库）
+segment-anything-git/
+
+# 忽略 Python 编译缓存等
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.DS_Store
+.ipynb_checkpoints/
+.env
+*.env
+*.log
+
+# 保留 segment_anything 目录下的 model 文件夹
+!segment_anything/
+!segment_anything/**
+
