@@ -12,3 +12,5 @@
 
 ## 📦 依赖安装
 CLIP 和 SAM 官方网站有介绍
+下面是结合chat的使用
+https://chatgpt.com/share/682d3d63-70e0-800c-9896-3b3f0182a65b
