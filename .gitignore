@@ -6,9 +6,12 @@ checkpoints/*
 
 # 但保留 checkpoints 文件夹结构（如果需要）
 !checkpoints/.gitignore
-
+！input/
+！output/
 # 忽略 segment-anything-git 目录（它是克隆的 Git 仓库）
 segment-anything-git/
+sam2/
+sam2-git/
 
 # 忽略 Python 编译缓存等
 __pycache__/
